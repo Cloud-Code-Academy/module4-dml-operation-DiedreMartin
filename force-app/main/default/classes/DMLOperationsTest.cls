@@ -259,8 +259,6 @@ public with sharing class DMLOperationsTest {
         System.assertEquals(0, retrievedLeads.size(), 'All Leads should have been deleted');
     }
 
-
-
     @IsTest
     static void testCreateAndDeleteCases() {
         // Create a test account
@@ -276,5 +274,4 @@ public with sharing class DMLOperationsTest {
         // Assert that no cases exist for the account
         Assert.areEqual(0, cases.size(), 'Cases were not successfully deleted.');
     }
-
 }
